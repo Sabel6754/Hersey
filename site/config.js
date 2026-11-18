@@ -41,6 +41,11 @@ window.SERVICES = [
 // the names of shades without a number. `shade` = the number printed on the box.
 // `color` is only used for the small swatch dot.
 window.PRODUCTS = [
+  { id: "r-bur",  kind: "Lipstick", shade: "", name: "Burgundy",  price: 18, color: "#6b0f24", image: "images/shop/r-burgundy.jpg" },
+  { id: "r-red",  kind: "Lipstick", shade: "", name: "Classic red", price: 18, color: "#b3121f", image: "images/shop/r-red.jpg" },
+  { id: "r-hot",  kind: "Lipstick", shade: "", name: "Hot pink",  price: 18, color: "#e0187f", image: "images/shop/r-hotpink.jpg" },
+  { id: "r-bri",  kind: "Lipstick", shade: "", name: "Brick red", price: 18, color: "#9c1a20", image: "images/shop/r-brick.jpg" },
+  { id: "r-nud",  kind: "Lipstick", shade: "", name: "Peach nude", price: 18, color: "#d9906c", image: "images/shop/r-nude.jpg" },
   { id: "lip-01",  kind: "Lipstick", shade: "01", name: "Purple",      price: 18, color: "#6a0f63", image: "images/shop/lip-01-purple.jpg" },
   { id: "lip-05",  kind: "Lipstick", shade: "05", name: "Plum",        price: 18, color: "#7d1f6a", image: "images/shop/lip-05-plum.jpg" },
   { id: "lip-06",  kind: "Lipstick", shade: "06", name: "Burgundy",    price: 18, color: "#5b0a1c", image: "images/shop/lip-06-burgundy.jpg" },

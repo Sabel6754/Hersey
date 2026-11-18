@@ -4,158 +4,120 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lover's Luxury | Nails & Lips, North Miami Beach</title>
-<meta name="description" content="Acrylic and Gel-X nails by appointment in North Miami Beach, FL, plus lipsticks and glosses. Book online, shop shades.">
+<meta name="description" content="Acrylic and Gel-X nails by appointment in North Miami Beach, FL. See the work, book online, shop lipsticks and glosses.">
 <meta property="og:title" content="Lover's Luxury, Nails & Lips">
-<meta property="og:description" content="Acrylic & Gel-X from $50. Book your set and shop lipsticks and glosses.">
 <meta property="og:image" content="images/work/10-neon-butterfly-xl.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Jost:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..500;1,6..96,400..500&family=Jost:wght@400;500;600&display=swap">
 <style>
-/* Concept: black lacquer and gold foil, taken from her packaging. Left-aligned and editorial.
-   Prices read like a printed menu, shades like the numbers on the boxes. */
+/* Work first: the portfolio is the first screen. Everything else is quiet and comes after. */
 :root{
-  --ink:#16110a; --ink2:#201810; --bronze9:#5a4a0d; --bronze7:#7a5e12; --gold7:#a67917; --gold6:#cc961f;
-  --gold4:#e8b84a; --gold2:#f3d789; --cream:#fff3d8; --paper:#fbf6ea; --ember:#e4690f;
-  --lineL:rgba(90,74,13,.24); --lineD:rgba(243,215,137,.24);
-  --display:"Bodoni Moda",Georgia,"Times New Roman",serif;
-  --sans:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --ink:#14100a; --ink2:#1d1710; --bronze9:#5a4a0d; --bronze7:#7a5e12; --gold6:#cc961f; --gold4:#e8b84a; --gold2:#f3d789; --cream:#fff3d8; --paper:#faf5e9; --ember:#e4690f;
+  --lineL:rgba(90,74,13,.24); --lineD:rgba(243,215,137,.22);
+  --display:"Bodoni Moda",Georgia,serif; --sans:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 *{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth;scroll-padding-top:76px}
-body{font-family:var(--sans);font-size:1rem;line-height:1.6;color:var(--ink);background:var(--paper)}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font-family:var(--sans);line-height:1.55;color:var(--ink);background:var(--paper)}
 img{max-width:100%;display:block}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--ember);outline-offset:3px}
 .wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-section{padding-block:clamp(56px,9vw,104px)}
-h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.04;text-wrap:balance}
-h2{font-size:clamp(2.1rem,5.2vw,3.5rem);margin:14px 0 16px}
-h2 em,h1 em{font-style:italic;color:var(--gold7)}
-.eyebrow{font:500 .72rem/1.2 var(--sans);letter-spacing:.26em;text-transform:uppercase;color:var(--bronze7)}
+section{padding-block:clamp(52px,8vw,92px)}
+h2{font:400 clamp(1.9rem,4.4vw,3rem)/1.05 var(--display);margin:10px 0 14px;text-wrap:balance}
+h2 em{font-style:italic;color:var(--bronze7)}
+.eyebrow{font:500 .7rem/1.2 var(--sans);letter-spacing:.26em;text-transform:uppercase;color:var(--bronze7)}
 .sub{color:#5d513a;max-width:46ch}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.95rem 1.55rem;border:1px solid var(--gold4);background:var(--gold4);color:var(--ink);font:600 .78rem/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;text-decoration:none;cursor:pointer;border-radius:2px;transition:background .15s,color .15s}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:.9rem 1.4rem;border:1px solid var(--gold4);background:var(--gold4);color:var(--ink);font:600 .74rem/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;text-decoration:none;cursor:pointer;border-radius:2px;transition:background .15s}
 .btn:hover{background:var(--gold2);border-color:var(--gold2)}
-.btn.line{background:transparent;color:var(--gold2)}
-.btn.line:hover{background:var(--gold4);color:var(--ink);border-color:var(--gold4)}
-.btn.ink{background:var(--ink);border-color:var(--ink);color:var(--gold2)}
-.btn.ink:hover{background:var(--bronze9);border-color:var(--bronze9)}
+.btn.sm{padding:.7rem 1rem;font-size:.68rem}
 .btn.lineink{background:transparent;border-color:var(--ink);color:var(--ink)}
 .btn.lineink:hover{background:var(--ink);color:var(--gold2)}
 .btn.full{width:100%}
 
-/* top bar + header */
-.promo{background:var(--gold4);color:var(--ink);font:500 .74rem/1.35 var(--sans);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:9px 16px}
 header{position:sticky;top:0;z-index:30;background:var(--ink);border-bottom:1px solid var(--lineD)}
-.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--cream);font:500 .78rem/1 var(--sans);letter-spacing:.3em;text-transform:uppercase}
-.brand img{height:42px;width:auto}
-.links{display:flex;align-items:center;gap:26px}
-.links a.l{font:500 .74rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:#d8c9a5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:60px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--cream);font:500 .74rem/1 var(--sans);letter-spacing:.3em;text-transform:uppercase}
+.brand img{height:38px;width:auto}
+.links{display:flex;align-items:center;gap:22px}
+.links a.l{font:500 .7rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:#d8c9a5}
 .links a.l:hover{color:var(--gold2)}
-.bag{background:transparent;border:1px solid var(--lineD);color:var(--gold2);font:600 .72rem/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;padding:11px 14px;border-radius:2px;cursor:pointer}
-.bag b{display:inline-block;min-width:1.4em;margin-left:6px;background:var(--gold4);color:var(--ink);border-radius:2px;padding:1px 5px;font-weight:600}
-@media(max-width:860px){.links a.l{display:none}.brand span{display:none}}
+.bag{background:transparent;border:1px solid var(--lineD);color:var(--gold2);font:600 .68rem/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;padding:10px 12px;border-radius:2px;cursor:pointer}
+.bag b{display:inline-block;min-width:1.4em;margin-left:6px;background:var(--gold4);color:var(--ink);border-radius:2px;padding:1px 5px}
+@media(max-width:760px){.links a.l.opt{display:none}.brand span{display:none}}
 
-/* hero */
-.hero{background:linear-gradient(180deg,var(--ink) 0%,#241a0c 100%);color:var(--cream);padding-block:clamp(40px,7vw,84px)}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
-.hero .eyebrow{color:var(--gold4)}
-.hero h1{font-size:clamp(3.1rem,9vw,6.2rem);line-height:.94;margin:18px 0 22px;letter-spacing:-.01em}
-.hero h1 em{color:var(--gold4)}
-.lede{color:#d9cba8;max-width:40ch;font-size:1.08rem;margin-bottom:30px}
-.cta{display:flex;gap:12px;flex-wrap:wrap}
-.facts{display:flex;flex-wrap:wrap;gap:12px 34px;margin-top:42px;padding-top:20px;border-top:1px solid var(--lineD)}
-.facts dt{font:500 .66rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold4);margin-bottom:6px}
-.facts dd{font:400 1.2rem/1.2 var(--display);margin:0}
-.collage{position:relative;height:clamp(430px,50vw,620px)}
-.collage figure{position:absolute;overflow:visible}
-.collage img{width:100%;height:100%;object-fit:cover}
-.c1{right:0;top:0;width:66%;height:84%;z-index:1}
-.c1::before{content:"";position:absolute;inset:16px -16px -16px 16px;border:1px solid var(--gold6);z-index:-1}
-.c2{left:0;bottom:0;width:46%;height:52%;z-index:2;border:6px solid #1d150b}
-.stamp{position:absolute;right:-4px;bottom:8%;z-index:3;width:128px;height:128px;border-radius:50%;background:var(--ember);color:var(--ink);display:grid;place-content:center;text-align:center;transform:rotate(-9deg);font:600 .6rem/1.2 var(--sans);letter-spacing:.16em;text-transform:uppercase}
-.stamp b{font:500 2.5rem/1 var(--display);letter-spacing:0}
-@media(max-width:860px){.hero-grid{grid-template-columns:1fr}.collage{height:420px;margin-top:8px}.c1::before{inset:14px 0 -14px 14px}.stamp{width:116px;height:116px;right:0;letter-spacing:.1em;font-size:.54rem}.stamp b{font-size:2.1rem}.facts{margin-top:32px}}
-
-.tape{background:var(--cream);border-block:1px solid var(--lineL);overflow-x:auto;scrollbar-width:none}
-.tape::-webkit-scrollbar{display:none}
-.tape p{display:flex;gap:26px;white-space:nowrap;padding:15px 16px;font:500 .72rem/1 var(--sans);letter-spacing:.26em;text-transform:uppercase;color:var(--bronze9);justify-content:center;min-width:max-content;margin:0 auto}
-.tape i{color:var(--gold6);font-style:normal}
-
-/* menu */
-.menu-grid{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(28px,6vw,88px)}
-.rows{list-style:none;padding:0;border-top:1px solid var(--ink)}
-.rows li{display:flex;align-items:baseline;gap:14px;padding:20px 0;border-bottom:1px solid var(--lineL)}
-.rows .n{display:grid;gap:3px;min-width:0}
-.rows b{font:500 1.05rem/1.25 var(--sans);letter-spacing:.02em}
-.rows small{font-size:.86rem;color:#6b5f48}
-.rows .lead{flex:1;border-bottom:1px dotted rgba(90,74,13,.5);transform:translateY(-5px);min-width:14px}
-.rows .p{font:500 1.9rem/1 var(--display);color:var(--bronze9);white-space:nowrap}
-.tag{display:inline-block;margin-left:10px;vertical-align:2px;background:var(--ember);color:var(--ink);font:600 .6rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:4px 7px;border-radius:2px}
-@media(max-width:860px){.menu-grid{grid-template-columns:1fr}}
-
-/* offer band */
-.offer{background:linear-gradient(100deg,var(--gold4),var(--gold6));padding-block:clamp(36px,6vw,64px);color:var(--ink)}
-.offer .wrap{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(18px,4vw,56px);align-items:center}
-.offer .big{font:400 clamp(5.4rem,15vw,10.5rem)/.8 var(--display);letter-spacing:-.03em}
-.offer h2{font-size:clamp(1.5rem,3.2vw,2.3rem);margin:0 0 8px}
-.offer p{max-width:46ch}
-@media(max-width:860px){.offer .wrap{grid-template-columns:1fr;gap:14px}}
-
-/* work */
-.work{background:var(--cream)}
-.workhead{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 40px;margin-bottom:34px}
-.tabs{display:flex;flex-wrap:wrap;gap:4px 26px}
-.tab{background:none;border:0;border-bottom:2px solid transparent;font:500 .76rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--bronze7);padding:10px 0;cursor:pointer}
-.tab[aria-pressed="true"]{color:var(--ink);border-color:var(--ember)}
-.gal{columns:4 230px;column-gap:16px}
-.gal figure{break-inside:avoid;margin:0 0 26px;cursor:zoom-in}
-.gal .im{overflow:hidden;background:#e7d7ae}
-.gal img{width:100%;height:auto;transition:transform .5s ease}
-.gal figure:hover img{transform:scale(1.035)}
-.gal figcaption{padding-top:10px;display:grid;gap:3px}
-.gal figcaption b{font:500 .98rem/1.3 var(--sans)}
+/* WORK = first screen */
+.stage{background:var(--ink);padding:0 0 clamp(36px,6vw,70px)}
+.bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 24px;padding-block:14px}
+.bar p{color:#d8c9a5;font:500 .74rem/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase}
+.bar p b{color:var(--gold4);font-weight:600}
+.tabs{display:flex;flex-wrap:wrap;gap:2px 20px}
+.tab{background:none;border:0;border-bottom:2px solid transparent;font:500 .7rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:#b9a97f;padding:9px 0;cursor:pointer}
+.tab[aria-pressed="true"]{color:var(--cream);border-color:var(--ember)}
+.gal{columns:4 240px;column-gap:4px;padding:0 4px}
+.gal figure{break-inside:avoid;margin:0 0 4px;position:relative;overflow:hidden;cursor:zoom-in;background:#2a2216}
+.gal img{width:100%;height:auto;transition:transform .5s ease,opacity .3s}
+.gal figure:hover img{transform:scale(1.04)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 12px 10px;background:linear-gradient(0deg,rgba(14,10,5,.82),transparent);color:var(--cream);font:500 .78rem/1.25 var(--sans);opacity:0;transition:opacity .2s}
+.gal figure:hover figcaption,.gal figure:focus-within figcaption{opacity:1}
+@media(hover:none){.gal figcaption{opacity:1;font-size:.7rem;padding:20px 8px 7px}}
+@media(max-width:600px){.gal{columns:2;column-gap:3px;padding:0 3px}.gal figure{margin-bottom:3px}}
 @media(prefers-reduced-motion:reduce){.gal img{transition:none}html{scroll-behavior:auto}}
-@media(max-width:600px){.gal{columns:2;column-gap:10px}.gal figcaption b{font-size:.86rem}.gal figure{margin-bottom:20px}}
-.lb{position:fixed;inset:0;background:rgba(14,10,5,.94);display:none;align-items:center;justify-content:center;z-index:60;padding:20px}
+.more{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:34px}
+.more .btn.ghost{background:transparent;color:var(--gold2)}
+.more .btn.ghost:hover{background:var(--gold4);color:var(--ink)}
+
+.lb{position:fixed;inset:0;background:rgba(14,10,5,.95);display:none;align-items:center;justify-content:center;z-index:60;padding:20px}
 .lb.on{display:flex}
 .lb figure{max-width:min(94vw,560px);color:var(--cream)}
 .lb img{max-height:76vh;width:auto;margin:0 auto}
 .lb figcaption{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-top:14px}
-.lb figcaption b{font:500 1.15rem/1.3 var(--display)}
-.lbx{position:absolute;top:14px;right:16px;background:none;border:0;color:var(--cream);font-size:2.2rem;line-height:1;cursor:pointer}
+.lb figcaption b{font:500 1rem/1.3 var(--sans)}
+.lbx{position:absolute;top:12px;right:16px;background:none;border:0;color:var(--cream);font-size:2.2rem;line-height:1;cursor:pointer}
+
+/* menu */
+.menu-grid{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(24px,6vw,84px)}
+.rows{list-style:none;padding:0;border-top:1px solid var(--ink)}
+.rows li{display:flex;align-items:baseline;gap:14px;padding:18px 0;border-bottom:1px solid var(--lineL)}
+.rows .n{display:grid;gap:2px;min-width:0}
+.rows b{font:500 1.02rem/1.25 var(--sans)}
+.rows small{font-size:.86rem;color:#6b5f48}
+.rows .lead{flex:1;border-bottom:1px dotted rgba(90,74,13,.5);transform:translateY(-5px);min-width:14px}
+.rows .p{font:500 1.7rem/1 var(--display);color:var(--bronze9);white-space:nowrap}
+.tag{display:inline-block;margin-left:10px;vertical-align:2px;background:var(--ember);color:var(--ink);font:600 .58rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:4px 7px;border-radius:2px}
+@media(max-width:860px){.menu-grid{grid-template-columns:1fr}}
 
 /* booking */
 .book{background:var(--ink);color:var(--cream)}
 .book .eyebrow{color:var(--gold4)}
 .book h2 em{color:var(--gold4)}
 .book .sub{color:#cdbf9f}
-.bgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(28px,6vw,88px);align-items:start}
-.steps{list-style:none;padding:0;margin:30px 0 28px;display:grid;gap:18px}
-.steps li{display:grid;grid-template-columns:34px 1fr;gap:12px;color:#e6d9b8}
-.steps b{font:500 1.5rem/1 var(--display);color:var(--gold4)}
-.pay{border-top:1px solid var(--lineD);padding-top:18px;font-size:.92rem;color:#d3c5a3}
+.bgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,6vw,84px);align-items:start}
+.steps{list-style:none;padding:0;margin:26px 0;display:grid;gap:16px}
+.steps li{display:grid;grid-template-columns:30px 1fr;gap:12px;color:#e6d9b8}
+.steps b{font:500 1.4rem/1 var(--display);color:var(--gold4)}
+.pay{border-top:1px solid var(--lineD);padding-top:16px;font-size:.92rem;color:#d3c5a3}
 .pay strong{color:var(--gold2);font-weight:500}
 .pay p{margin:4px 0}
-.form{background:var(--ink2);border:1px solid var(--lineD);padding:clamp(20px,3.4vw,36px)}
-.f{display:grid;gap:4px;margin-bottom:18px}
-.f label,.f legend{font:500 .68rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold4);padding:0}
+.form{background:var(--ink2);border:1px solid var(--lineD);padding:clamp(18px,3.4vw,34px)}
+.f{display:grid;gap:4px;margin-bottom:16px}
+.f label,.f legend,.chips legend{font:500 .66rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold4);padding:0}
 .f input[type=text],.f input[type=tel],.f input[type=date],.f select,.f textarea{width:100%;background:transparent;border:0;border-bottom:1px solid var(--lineD);color:var(--cream);font:400 1.05rem/1.4 var(--sans);padding:10px 0;border-radius:0;color-scheme:dark}
 .f select option{background:var(--ink2);color:var(--cream)}
 .f textarea{resize:vertical}
 .f input:focus,.f select:focus,.f textarea:focus{outline:none;border-bottom-color:var(--gold4)}
 .f input::placeholder,.f textarea::placeholder{color:#8f8466}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:0 22px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;border:0;padding:0;margin:0 0 18px}
-.chips legend{margin-bottom:10px;font:500 .68rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold4);padding:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;border:0;padding:0;margin:0 0 16px}
+.chips legend{margin-bottom:10px}
 .chip{position:relative}
 .chip input{position:absolute;opacity:0;inset:0;cursor:pointer}
-.chip span{display:block;border:1px solid var(--lineD);padding:10px 14px;font:500 .82rem/1 var(--sans);letter-spacing:.06em;color:#e6d9b8;border-radius:2px}
+.chip span{display:block;border:1px solid var(--lineD);padding:10px 14px;font:500 .8rem/1 var(--sans);letter-spacing:.06em;color:#e6d9b8;border-radius:2px}
 .chip input:checked+span{background:var(--gold4);color:var(--ink);border-color:var(--gold4)}
 .chip input:focus-visible+span{outline:2px solid var(--ember);outline-offset:2px}
-.check{display:flex;align-items:center;gap:10px;font-size:.95rem;color:#e6d9b8;cursor:pointer;margin-bottom:18px}
+.check{display:flex;align-items:center;gap:10px;font-size:.95rem;color:#e6d9b8;cursor:pointer;margin-bottom:16px}
 .check input{width:18px;height:18px;accent-color:var(--gold4)}
-.sum{margin:6px 0 20px;display:grid;gap:8px;font-size:.95rem;color:#d3c5a3}
+.sum{margin:6px 0 18px;display:grid;gap:8px;font-size:.95rem;color:#d3c5a3}
 .sum div{display:flex;align-items:baseline;gap:10px}
 .sum i{flex:1;border-bottom:1px dotted rgba(243,215,137,.4);transform:translateY(-4px)}
 .sum .t{color:var(--cream);font-weight:500;font-size:1.05rem}
@@ -164,147 +126,94 @@ header{position:sticky;top:0;z-index:30;background:var(--ink);border-bottom:1px 
 @media(max-width:860px){.bgrid{grid-template-columns:1fr}.two{grid-template-columns:1fr}}
 
 /* shop */
-.shophead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);align-items:center;margin-bottom:clamp(36px,6vw,64px)}
-.shopimg{position:relative;padding-bottom:34px}
-.shopimg .m{width:84%;margin-left:auto;aspect-ratio:1/1;object-fit:cover;object-position:60% 40%}
-.shopimg .k{position:absolute;left:0;bottom:0;width:54%;border:6px solid var(--paper);box-shadow:0 18px 40px rgba(22,17,10,.18)}
-.prices{display:flex;gap:28px;margin-top:22px;padding-top:16px;border-top:1px solid var(--lineL)}
-.prices div{font:500 .68rem/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--bronze7)}
-.prices b{display:block;margin-top:6px;font:500 1.7rem/1 var(--display);letter-spacing:0;color:var(--ink)}
-.shop{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:34px 18px}
-.prod .ph{aspect-ratio:4/5;overflow:hidden;background:#e7d7ae}
-.prod img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
-.prod .meta{display:flex;align-items:center;gap:8px;margin-top:12px;font:500 .66rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--bronze7)}
+.shop{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:30px 14px;margin-top:30px}
+.prod .ph{aspect-ratio:4/5;overflow:hidden;background:#fff}
+.prod img{width:100%;height:100%;object-fit:cover;object-position:50% 55%}
+.prod .meta{display:flex;align-items:center;gap:8px;margin-top:10px;font:500 .64rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--bronze7)}
 .sw{width:11px;height:11px;border-radius:50%;flex:none;box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
-.prod h3{font:400 1.35rem/1.15 var(--display);margin:6px 0 10px}
+.prod h3{font:400 1.25rem/1.15 var(--display);margin:5px 0 8px}
 .prod .row{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
-.prod .pr{font:500 1.05rem/1 var(--sans)}
-.add{background:none;border:0;border-bottom:1px solid var(--ink);padding:3px 0;font:600 .7rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;cursor:pointer;color:var(--ink)}
+.prod .pr{font:500 1rem/1 var(--sans)}
+.add{background:none;border:0;border-bottom:1px solid var(--ink);padding:3px 0;font:600 .68rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;cursor:pointer;color:var(--ink)}
 .add:hover{color:var(--ember);border-color:var(--ember)}
 @media(max-width:1000px){.shop{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:860px){.shophead{grid-template-columns:1fr}}
-@media(max-width:600px){.shop{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 12px}.prod h3{font-size:1.15rem}}
+@media(max-width:600px){.shop{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 10px}.prod h3{font-size:1.1rem}}
 
-/* reviews */
 .rev{background:var(--cream)}
-.revgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:30px;margin-top:26px}
-.revgrid blockquote{border-top:1px solid var(--ink);padding-top:16px;font:400 1.25rem/1.4 var(--display)}
-.revgrid cite{display:block;margin-top:12px;font:500 .72rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;font-style:normal;color:var(--bronze7)}
-.stars{color:var(--gold7);letter-spacing:3px;font-size:.9rem;margin-bottom:8px}
+.revgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:28px;margin-top:22px}
+.revgrid blockquote{border-top:1px solid var(--ink);padding-top:14px;font:400 1.2rem/1.4 var(--display)}
+.revgrid cite{display:block;margin-top:10px;font:500 .7rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;font-style:normal;color:var(--bronze7)}
+.stars{color:var(--bronze7);letter-spacing:3px;font-size:.9rem;margin-bottom:8px}
 
-/* contact */
-.cgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,6vw,88px)}
-.hrs{margin:20px 0;border-top:1px solid var(--ink)}
-.hrs div{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--lineL);font-size:.96rem}
-.addr{font:400 1.5rem/1.25 var(--display)}
-.talk .big{font:400 clamp(1.8rem,4vw,2.7rem)/1.1 var(--display);margin-bottom:22px}
+.cgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,6vw,84px)}
+.hrs{margin:18px 0;border-top:1px solid var(--ink)}
+.hrs div{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--lineL);font-size:.95rem}
+.addr{font:400 1.4rem/1.25 var(--display)}
+.talk .big{font:400 clamp(1.6rem,3.6vw,2.4rem)/1.15 var(--display);margin-bottom:20px}
 .talk .big a{text-decoration-color:var(--gold6);text-underline-offset:6px}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
 @media(max-width:860px){.cgrid{grid-template-columns:1fr}}
 
-footer{background:var(--ink);color:#bfae8a;padding:46px 0 40px}
-footer .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 40px}
-footer img{height:74px;width:auto}
+footer{background:var(--ink);color:#bfae8a;padding:40px 0 36px}
+footer .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 40px}
+footer img{height:64px;width:auto}
 footer p{font-size:.84rem}
 footer a{color:var(--gold2)}
 
-/* cart */
 .scrim{position:fixed;inset:0;background:rgba(14,10,5,.55);z-index:70;display:none}.scrim.on{display:block}
 .drawer{position:fixed;top:0;right:0;height:100%;width:min(400px,100%);background:var(--paper);z-index:80;transform:translateX(105%);transition:transform .25s;padding:22px;display:flex;flex-direction:column;box-shadow:-12px 0 40px rgba(0,0,0,.25);visibility:hidden}
 .drawer.on{transform:none;visibility:visible}
 @media(prefers-reduced-motion:reduce){.drawer{transition:none}}
-.drawer h3{font-size:1.9rem;margin:0 0 6px}
+.drawer h3{font:400 1.8rem/1 var(--display);margin:0 0 6px}
 .x{align-self:flex-end;border:0;background:none;font-size:2rem;line-height:1;cursor:pointer;color:var(--ink)}
 .items{flex:1;overflow:auto;margin-top:8px}
 .it{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid var(--lineL);font-size:.95rem}
 .it .q{display:flex;align-items:center;gap:8px}
 .it .q button{width:28px;height:28px;border:1px solid var(--lineL);background:#fff;border-radius:2px;cursor:pointer;font-size:1rem}
-.drawer .tot{display:flex;justify-content:space-between;align-items:baseline;padding:16px 0 4px;font:500 1.9rem/1 var(--display)}
+.drawer .tot{display:flex;justify-content:space-between;align-items:baseline;padding:16px 0 4px;font:500 1.8rem/1 var(--display)}
 .drawer input[type=text]{width:100%;border:0;border-bottom:1px solid var(--ink);background:transparent;padding:10px 0;font:400 1rem var(--sans);margin:10px 0 14px}
 .drawer input:focus{outline:none;border-bottom-color:var(--ember)}
 .drawer .note{color:#6b5f48}
-
 .float{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:max(14px,env(safe-area-inset-bottom,0px));z-index:40}
 .float .btn{box-shadow:0 10px 30px rgba(0,0,0,.35)}
-@media(max-width:600px){.float .btn{padding:.8rem 1.1rem}}
 [hidden]{display:none!important}
 </style>
 </head>
 <body>
-
-<div class="promo" id="promo"></div>
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top"><img src="images/logo-mark.png" alt=""><span>Lover's Luxury</span></a>
     <nav class="links" aria-label="Main">
-      <a class="l" href="#menu">Menu</a>
-      <a class="l" href="#work">Work</a>
-      <a class="l" href="#book">Book</a>
-      <a class="l" href="#shop">Shop</a>
-      <a class="l" href="#contact">Visit</a>
+      <a class="l opt" href="#menu">Prices</a>
+      <a class="l opt" href="#shop">Shop</a>
+      <a class="l opt" href="#contact">Visit</a>
+      <a class="btn sm" href="#book">Book</a>
       <button class="bag" id="openCart" type="button">Bag<b id="cartCount">0</b></button>
     </nav>
   </div>
 </header>
 
 <main id="top">
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <p class="eyebrow">Nails &amp; lips · North Miami Beach</p>
-      <h1>Sharp sets.<br><em>Rich lips.</em></h1>
-      <p class="lede">Acrylic and Gel-X by appointment, with lipsticks and glosses to match. Send your inspiration and we build it.</p>
-      <div class="cta">
-        <a class="btn" href="#book">Book a set</a>
-        <a class="btn line" href="#shop">Shop shades</a>
-      </div>
-      <dl class="facts">
-        <div><dt>Full sets from</dt><dd id="fromPrice">$50</dd></div>
-        <div><dt>This season</dt><dd>Free lipstick</dd></div>
-        <div><dt>Call or text</dt><dd id="heroPhone"></dd></div>
-      </dl>
-    </div>
-    <div class="collage">
-      <figure class="c1"><img src="images/work/02-leopard-stiletto.jpg" alt="Leopard print stiletto nails with red accents" fetchpriority="high"></figure>
-      <figure class="c2"><img src="images/work/10-neon-butterfly-xl.jpg" alt="Neon yellow XL coffin nails with a 3D butterfly"></figure>
-      <div class="stamp"><span>Holiday set</span><b id="stampPrice">$50</b><span>+ free lipstick</span></div>
-    </div>
+<section class="stage" id="work">
+  <div class="wrap bar">
+    <p><b>Lover's Luxury</b> · Nails · North Miami Beach · <span id="barPrice"></span></p>
+    <div class="tabs" id="tabs" role="group" aria-label="Filter work"></div>
+  </div>
+  <div class="gal" id="gallery"></div>
+  <div class="more">
+    <a class="btn" href="#book">Book a set</a>
+    <a class="btn ghost" id="igMore" target="_blank" rel="noopener">More on Instagram</a>
   </div>
 </section>
-
-<div class="tape"><p><span>Acrylic</span><i>/</i><span>Gel-X</span><i>/</i><span>French</span><i>/</i><span>Chrome</span><i>/</i><span>3D flowers</span><i>/</i><span>Stiletto</span><i>/</i><span>Coffin</span><i>/</i><span>Almond</span></p></div>
 
 <section id="menu">
   <div class="wrap menu-grid">
     <div>
-      <p class="eyebrow">The menu</p>
+      <p class="eyebrow">Prices</p>
       <h2>Pick your <em>set.</em></h2>
-      <p class="sub">Prices include the design on a standard set. Longer lengths and heavy art are quoted when you send your inspiration.</p>
+      <p class="sub" id="offerLine"></p>
     </div>
     <ul class="rows" id="rows"></ul>
-  </div>
-</section>
-
-<section class="offer" id="offer">
-  <div class="wrap">
-    <div class="big" id="offerPrice">$50</div>
-    <div>
-      <h2 id="offerTitle">Holiday set</h2>
-      <p id="offerText"></p>
-    </div>
-    <a class="btn ink" href="#book">Claim it</a>
-  </div>
-</section>
-
-<section class="work" id="work">
-  <div class="wrap">
-    <div class="workhead">
-      <div>
-        <p class="eyebrow">Portfolio</p>
-        <h2>Recent <em>work.</em></h2>
-      </div>
-      <div class="tabs" id="tabs" role="group" aria-label="Filter work"></div>
-    </div>
-    <div class="gal" id="gallery"></div>
   </div>
 </section>
 
@@ -351,18 +260,9 @@ footer a{color:var(--gold2)}
 
 <section id="shop">
   <div class="wrap">
-    <div class="shophead">
-      <div>
-        <p class="eyebrow">Boutique</p>
-        <h2>Lips, <em>by the number.</em></h2>
-        <p class="sub">Every lipstick and gloss has its shade number printed on the box. Add yours to the bag, send the order, and we confirm pickup or delivery before you pay.</p>
-        <div class="prices" id="prices"></div>
-      </div>
-      <div class="shopimg">
-        <img class="m" src="images/boutique-model.jpg" alt="Woman holding a Lover's Luxury lipstick in purple" loading="lazy">
-        <img class="k" src="images/boutique-pack.jpg" alt="Lover's Luxury lipstick 01 with its black and gold box" loading="lazy">
-      </div>
-    </div>
+    <p class="eyebrow">Boutique</p>
+    <h2>Lipsticks &amp; <em>glosses.</em></h2>
+    <p class="sub">Add to the bag, send the order, and we confirm pickup or delivery before you pay.</p>
     <div class="shop" id="products"></div>
   </div>
 </section>
@@ -379,13 +279,13 @@ footer a{color:var(--gold2)}
   <div class="wrap cgrid">
     <div>
       <p class="eyebrow">Visit the studio</p>
-      <p class="addr" id="addr" style="margin-top:14px"></p>
+      <p class="addr" id="addr" style="margin-top:12px"></p>
       <div class="hrs" id="hours"></div>
       <a class="btn lineink" id="mapBtn" target="_blank" rel="noopener">Open in Google Maps</a>
     </div>
     <div class="talk">
       <p class="eyebrow">Questions or a custom design?</p>
-      <p class="big" style="margin-top:14px">Message us on <a id="waLink" target="_blank" rel="noopener">WhatsApp</a> or call <a id="telLink"></a>.</p>
+      <p class="big" style="margin-top:12px">Message us on <a id="waLink" target="_blank" rel="noopener">WhatsApp</a> or call <a id="telLink"></a>.</p>
       <div class="cta">
         <a class="btn" id="waBtn" target="_blank" rel="noopener">WhatsApp</a>
         <a class="btn lineink" id="igBtn" target="_blank" rel="noopener">Instagram</a>
@@ -399,7 +299,7 @@ footer a{color:var(--gold2)}
 <footer>
   <div class="wrap">
     <img src="images/logo-gold.png" alt="Lover's Luxury">
-    <p>© <span id="yr"></span> <span id="fName"></span> · <span id="fCity"></span> · <a id="fPhone" href="#"></a> · <a id="fIg" target="_blank" rel="noopener" href="#">Instagram</a></p>
+    <p>© <span id="yr"></span> <span id="fName"></span> · <span id="fCity"></span> · <a id="fPhone" href="#"></a></p>
   </div>
 </footer>
 
@@ -407,7 +307,7 @@ footer a{color:var(--gold2)}
 
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo">
   <button class="lbx" id="lbx" type="button" aria-label="Close">×</button>
-  <figure><img alt=""><figcaption><b id="lbT"></b><a class="btn" id="lbBook" href="#book">Book this look</a></figcaption></figure>
+  <figure><img alt=""><figcaption><b id="lbT"></b><a class="btn sm" id="lbBook" href="#book">Book this look</a></figcaption></figure>
 </div>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Your bag">
@@ -431,57 +331,47 @@ footer a{color:var(--gold2)}
   var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})};
   var O=S.offer;
 
-  /* static fills */
-  $("promo").textContent="Holiday set: acrylic or Gel-X, any style, any length, "+money(O.price)+" + free lipstick, through "+O.until;
-  $("heroPhone").textContent=S.phoneDisplay;
-  $("fromPrice").textContent=money(Math.min.apply(null,SV.filter(function(s){return s.set}).map(function(s){return s.price})));
-  $("stampPrice").textContent=money(O.price);
-  $("offerPrice").textContent=money(O.price);
-  $("offerTitle").textContent="Holiday set, through "+O.until;
-  $("offerText").textContent=O.text;
+  var from=Math.min.apply(null,SV.filter(function(s){return s.set}).map(function(s){return s.price}));
+  $("barPrice").textContent="Full sets from "+money(from);
+  $("offerLine").textContent="Holiday offer through "+O.until+": "+O.text;
   $("addr").textContent=S.address;
   $("hours").innerHTML=S.hours.map(function(h){return "<div><span>"+esc(h[0])+"</span><span>"+esc(h[1])+"</span></div>"}).join("");
   $("mapBtn").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(S.mapsQuery);
   var chat=wa("Hi "+S.name+"! I'd like to book an appointment.");
   ["waBtn","waLink","floatWa"].forEach(function(id){$(id).href=chat});
   $("telLink").textContent=S.phoneDisplay; $("telLink").href="tel:+"+S.whatsapp;
-  $("igBtn").href="https://instagram.com/"+S.instagram; $("fIg").href=$("igBtn").href;
+  var ig="https://instagram.com/"+S.instagram; $("igBtn").href=ig; $("igMore").href=ig;
   $("ttBtn").href="https://www.tiktok.com/@"+S.tiktok;
   $("fPhone").textContent=S.phoneDisplay; $("fPhone").href="tel:+"+S.whatsapp;
   $("yr").textContent=new Date().getFullYear(); $("fName").textContent=S.name; $("fCity").textContent=S.city;
   $("depStep").textContent=money(S.depositAmount);
 
-  /* menu */
   $("rows").innerHTML=SV.map(function(s){
     return '<li><div class="n"><b>'+esc(s.name)+(s.hot?'<span class="tag">Holiday</span>':'')+'</b><small>'+esc(s.note)+'</small></div><i class="lead"></i><span class="p">'+money(s.price)+(s.from?'+':'')+'</span></li>';
   }).join("");
   $("bService").innerHTML=SV.filter(function(s){return !s.from}).map(function(s){return '<option value="'+s.id+'">'+esc(s.name)+', '+money(s.price)+'</option>'}).join("");
 
-  /* gallery */
   var tags=["All"].concat(GL.map(function(g){return g.tag}).filter(function(v,i,a){return a.indexOf(v)===i})), cur="All";
   function drawGal(){
     $("tabs").innerHTML=tags.map(function(t){return '<button type="button" class="tab" data-t="'+esc(t)+'" aria-pressed="'+(t===cur)+'">'+esc(t)+'</button>'}).join("");
-    $("gallery").innerHTML=GL.filter(function(g){return cur==="All"||g.tag===cur}).map(function(g,i){
-      return '<figure data-i="'+GL.indexOf(g)+'"><div class="im"><img loading="lazy" src="'+esc(g.src)+'" alt="'+esc(g.title)+'"></div><figcaption><span class="eyebrow">'+esc(g.tag)+'</span><b>'+esc(g.title)+'</b></figcaption></figure>';
+    $("gallery").innerHTML=GL.filter(function(g){return cur==="All"||g.tag===cur}).map(function(g,n){
+      var first=n<4;
+      return '<figure data-i="'+GL.indexOf(g)+'"><img '+(first?'fetchpriority="high"':'loading="lazy"')+' src="'+esc(g.src)+'" alt="'+esc(g.title)+'"><figcaption>'+esc(g.title)+'</figcaption></figure>';
     }).join("");
   }
   $("tabs").addEventListener("click",function(e){var t=e.target.getAttribute("data-t"); if(t){cur=t;drawGal()}});
   var lbItem=null;
   $("gallery").addEventListener("click",function(e){
     var f=e.target.closest("figure"); if(!f) return; lbItem=GL[+f.getAttribute("data-i")];
-    $("lb").querySelector("img").src=lbItem.src; $("lb").querySelector("img").alt=lbItem.title; $("lbT").textContent=lbItem.title;
-    $("lb").classList.add("on");
+    var im=$("lb").querySelector("img"); im.src=lbItem.src; im.alt=lbItem.title; $("lbT").textContent=lbItem.title; $("lb").classList.add("on");
   });
   function closeLb(){$("lb").classList.remove("on")}
   $("lbx").onclick=closeLb;
   $("lb").addEventListener("click",function(e){if(e.target===this) closeLb()});
-  $("lbBook").addEventListener("click",function(){
-    if(lbItem&&!$("bNotes").value) $("bNotes").value="I'd like this look: "+lbItem.title; closeLb();
-  });
+  $("lbBook").addEventListener("click",function(){ if(lbItem&&!$("bNotes").value) $("bNotes").value="I'd like this look: "+lbItem.title; closeLb(); });
   document.addEventListener("keydown",function(e){if(e.key==="Escape"){closeLb();closeCart()}});
   drawGal();
 
-  /* booking */
   $("bTime").insertAdjacentHTML("beforeend",S.slots.map(function(t,i){
     return '<label class="chip"><input type="radio" name="bt" value="'+esc(t)+'"'+(i===0?' required':'')+'><span>'+esc(t)+'</span></label>';
   }).join(""));
@@ -519,10 +409,7 @@ footer a{color:var(--gold2)}
     window.open(wa(msg),"_blank");
   });
 
-  /* shop + bag */
   function label(p){return p.kind+(p.shade?" "+p.shade:"")+" · "+p.name}
-  var lip=PR.filter(function(p){return p.kind==="Lipstick"})[0], gl=PR.filter(function(p){return p.kind!=="Lipstick"})[0];
-  $("prices").innerHTML=(lip?'<div>Lipstick<b>'+money(lip.price)+'</b></div>':'')+(gl?'<div>Shiny gloss<b>'+money(gl.price)+'</b></div>':'');
   $("products").innerHTML=PR.map(function(p){
     return '<article class="prod"><div class="ph"><img loading="lazy" src="'+esc(p.image)+'" alt="'+esc(label(p))+'"></div>'+
       '<div class="meta"><span class="sw" style="background:'+esc(p.color)+'"></span><span>'+esc(p.kind)+(p.shade?' · '+esc(p.shade):'')+'</span></div>'+
@@ -559,7 +446,6 @@ footer a{color:var(--gold2)}
   };
   drawCart();
 
-  /* reviews: shown only when real ones exist */
   if(RV.length){
     $("reviews").hidden=false;
     $("revList").innerHTML=RV.map(function(r){return '<blockquote><div class="stars">'+"★".repeat(r.stars||5)+'</div>'+esc(r.text)+'<cite>'+esc(r.name)+'</cite></blockquote>'}).join("");
