@@ -47,6 +47,8 @@ window.PRODUCTS = [
 // ---- Gallery (your work) ----
 // src: put files in /images/work and list them here. tag: Acrylic | Gel-X | French | Toes | Art
 window.GALLERY = [
+  { src: "images/work/10-neon-butterfly-xl.jpg",   tag: "Acrylic", alt: "XL coffin nails with neon yellow and 3D butterfly" },
+  { src: "images/work/11-red-black-stiletto.jpg",    tag: "Art",     alt: "Red and black chrome stiletto nails with crystals" },
   { src: "images/work/02-leopard-stiletto.jpg",     tag: "Art",     alt: "Leopard print stiletto nails with red accents" },
   { src: "images/work/04-red-french-chrome.jpg",    tag: "French",  alt: "Red French tips with chrome moon and pearls" },
   { src: "images/work/08-blue-french-stiletto.jpg", tag: "French",  alt: "Blue French tip stiletto nails" },
@@ -55,6 +57,7 @@ window.GALLERY = [
   { src: "images/work/03-white-french-paw.jpg",     tag: "French",  alt: "White French tips with paw print" },
   { src: "images/work/06-red-glitter.jpg",          tag: "Acrylic", alt: "Deep red glitter square set" },
   { src: "images/work/05-pearl-coffin.jpg",         tag: "Acrylic", alt: "Soft pink coffin nails with pearls" },
+  { src: "images/work/12-cow-print-flower.jpg",      tag: "French",  alt: "Pink French with cow print and 3D flower" },
   { src: "images/work/01-pink-glitter-almond.jpg",  tag: "Gel-X",   alt: "Pink almond nails with silver glitter tips" }
 ];
 
