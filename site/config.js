@@ -47,12 +47,15 @@ window.PRODUCTS = [
 // ---- Gallery (your work) ----
 // src: put files in /images/work and list them here. tag: Acrylic | Gel-X | French | Toes | Art
 window.GALLERY = [
-  { src: "images/work/01.jpg", tag: "French",  alt: "Red French tips with pearl detail" },
-  { src: "images/work/02.jpg", tag: "French",  alt: "Blue French tip almond nails" },
-  { src: "images/work/03.jpg", tag: "Acrylic", alt: "Nude short set with 3D flowers" },
-  { src: "images/work/04.jpg", tag: "Art",     alt: "Black and red stiletto chrome nails" },
-  { src: "images/work/05.jpg", tag: "French",  alt: "Red French with gold studs" },
-  { src: "images/work/06.jpg", tag: "Toes",    alt: "White French toes" }
+  { src: "images/work/02-leopard-stiletto.jpg",     tag: "Art",     alt: "Leopard print stiletto nails with red accents" },
+  { src: "images/work/04-red-french-chrome.jpg",    tag: "French",  alt: "Red French tips with chrome moon and pearls" },
+  { src: "images/work/08-blue-french-stiletto.jpg", tag: "French",  alt: "Blue French tip stiletto nails" },
+  { src: "images/work/09-polka-flower.jpg",         tag: "Art",     alt: "Polka dot French with 3D flower" },
+  { src: "images/work/07-chrome-swirls.jpg",        tag: "Art",     alt: "Pink nails with chrome swirls and studs" },
+  { src: "images/work/03-white-french-paw.jpg",     tag: "French",  alt: "White French tips with paw print" },
+  { src: "images/work/06-red-glitter.jpg",          tag: "Acrylic", alt: "Deep red glitter square set" },
+  { src: "images/work/05-pearl-coffin.jpg",         tag: "Acrylic", alt: "Soft pink coffin nails with pearls" },
+  { src: "images/work/01-pink-glitter-almond.jpg",  tag: "Gel-X",   alt: "Pink almond nails with silver glitter tips" }
 ];
 
 // ---- Reviews (replace with real ones from clients) ----
