@@ -37,11 +37,18 @@ window.SERVICES = [
 
 // ---- Boutique products ----
 // image: put the file in /images and write "images/name.jpg". Leave "" for a placeholder.
+// PRICES BELOW ARE PLACEHOLDERS ($18 lipstick, $14 gloss): replace with the real ones.
 window.PRODUCTS = [
-  { id: "lipstick", name: "Luxury Lipstick",  price: 18, image: "", note: "Creamy, long-wear" },
-  { id: "gloss",    name: "Lip Gloss",        price: 14, image: "", note: "High shine, non-sticky" },
-  { id: "liner",    name: "Lip Liner",        price: 10, image: "", note: "Defined, smooth" },
-  { id: "set",      name: "Lip Combo Set",    price: 35, image: "", note: "Liner + gloss + lipstick" }
+  { id: "lip-01",  name: "Lipstick 01 · Purple",         price: 18, image: "images/shop/lip-01-purple.jpg",       note: "Bold, creamy finish" },
+  { id: "lip-05",  name: "Lipstick 05 · Plum",           price: 18, image: "images/shop/lip-05-plum.jpg",         note: "Deep berry, long-wear" },
+  { id: "lip-06",  name: "Lipstick 06 · Burgundy",       price: 18, image: "images/shop/lip-06-burgundy.jpg",     note: "Classic dark red" },
+  { id: "lip-12",  name: "Lipstick 12 · Raspberry",      price: 18, image: "images/shop/lip-12-raspberry.jpg",    note: "Vivid pink-red" },
+  { id: "lip-red", name: "Lipstick · Coral Red",         price: 18, image: "images/shop/lip-coral-red.jpg",       note: "Bright, glossy red" },
+  { id: "lip-mau", name: "Lipstick · Mauve Pink",        price: 18, image: "images/shop/lip-mauve.jpg",           note: "Soft everyday pink" },
+  { id: "lip-ros", name: "Lipstick · Dusty Rose",        price: 18, image: "images/shop/lip-dusty-rose.jpg",      note: "Warm rosy nude" },
+  { id: "lip-nud", name: "Lipstick · Nude",              price: 18, image: "images/shop/lip-nude.jpg",            note: "Creamy neutral" },
+  { id: "gl-29",   name: "Shiny Gloss #29 · Cherry",     price: 14, image: "images/shop/gloss-29-cherry.jpg",     note: "High shine, deep red" },
+  { id: "gl-57",   name: "Shiny Gloss #57 · Pink",       price: 14, image: "images/shop/gloss-57-pink.jpg",       note: "Pink shimmer gloss" }
 ];
 
 // ---- Gallery (your work) ----
