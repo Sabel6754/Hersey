@@ -29,12 +29,18 @@ window.SITE = {
 
 // ---- Nail menu (price in $) ----   ⚠ CONFIRM every price except the $50 holiday sets
 window.SERVICES = [
-  { id: "acrylic", name: "Acrylic full set",       price: 50, note: "Any style, any length",       hot: true, set: true },
-  { id: "gelx",    name: "Gel-X full set",         price: 50, note: "Any style, any length",       hot: true, set: true },
-  { id: "combo",   name: "Hands + toes",           price: 80, note: "Full set + gel toes" },
-  { id: "fill",    name: "Fill / refill",          price: 35, note: "Within three weeks" },
-  { id: "toes",    name: "Toes, gel polish",       price: 30, note: "Color, French or art" },
-  { id: "art",     name: "Nail art & rhinestones", price: 10, note: "Add-on, price by design", from: true }
+  { id: "acrylic", name: "Acrylic full set", price: 50, hot: true, set: true, image: "images/work/10-neon-butterfly-xl.jpg",
+    note: "Sculpted for strength and shape, in any length and any style you bring us." },
+  { id: "gelx",    name: "Gel-X full set",   price: 50, hot: true, set: true, image: "images/work/01-pink-glitter-almond.jpg",
+    note: "A lighter, natural-feeling set with a flawless gel finish." },
+  { id: "combo",   name: "Hands + toes",     price: 80, image: "images/work/05-pearl-coffin.jpg",
+    note: "A full set with matching gel toes. Our best value." },
+  { id: "fill",    name: "Fill / refill",    price: 35, image: "images/work/04-red-french-chrome.jpg",
+    note: "Keep your set fresh. Book within three weeks of your last visit." },
+  { id: "toes",    name: "Toes, gel polish", price: 30, image: "images/work/06-red-glitter.jpg",
+    note: "Color, French or art, with a long-lasting gel shine." },
+  { id: "art",     name: "Nail art & rhinestones", price: 10, from: true, image: "images/work/07-chrome-swirls.jpg",
+    note: "Chrome, 3D flowers, crystals and hand-painted designs. Price by design." }
 ];
 
 // ---- Boutique ----   ⚠ CONFIRM: prices ($18 lipstick / $14 gloss are placeholders) and
